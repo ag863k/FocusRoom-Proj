@@ -1,0 +1,32 @@
+{
+  "name": "focusroom-timer",
+  "version": "2.0.0",
+  "description": "Modern Pomodoro timer with beautiful glassmorphism design and no dependencies",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 3000",
+    "start": "python -m http.server 3000",
+    "build": "echo 'No build step required - static files ready for deployment'",
+    "deploy": "echo 'Ready for deployment to Vercel, Netlify, or GitHub Pages'"
+  },
+  "keywords": [
+    "pomodoro",
+    "timer",
+    "productivity",
+    "focus",
+    "modern",
+    "es6",
+    "glassmorphism",
+    "no-dependencies"
+  ],
+  "author": "FocusRoom",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/focusroom-timer.git"
+  },
+  "homepage": "https://github.com/yourusername/focusroom-timer#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
