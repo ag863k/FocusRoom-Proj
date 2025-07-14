@@ -4,10 +4,10 @@
   "description": "Modern Pomodoro timer with beautiful glassmorphism design and no dependencies",
   "main": "index.html",
   "scripts": {
-    "dev": "python -m http.server 3000",
-    "start": "python -m http.server 3000",
-    "build": "echo 'No build step required - static files ready for deployment'",
-    "deploy": "echo 'Ready for deployment to Vercel, Netlify, or GitHub Pages'"
+    "dev": "npx serve -s . -p 3000",
+    "start": "npx serve -s . -p 3000",
+    "build": "echo 'Static files ready for deployment'",
+    "deploy": "echo 'Ready for deployment to Vercel'"
   },
   "keywords": [
     "pomodoro",
@@ -23,9 +23,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/focusroom-timer.git"
+    "url": "git+https://github.com/ag863k/FocusRoom-Proj.git"
   },
-  "homepage": "https://github.com/yourusername/focusroom-timer#readme",
+  "homepage": "https://github.com/ag863k/FocusRoom-Proj#readme",
   "engines": {
     "node": ">=14.0.0"
   }

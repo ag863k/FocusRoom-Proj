@@ -1,10 +1,7 @@
 {
   "version": 2,
   "name": "focusroom-timer",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "buildCommand": "echo 'Static files ready'",
+  "outputDirectory": ".",
+  "framework": null
 }
